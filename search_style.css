@@ -1,0 +1,138 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+.container{
+    text-align: center;
+    width: 800px;    
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #e7c1c3;
+    float: left;
+    width: 75%;
+    background: #FBEAEB;
+    border-radius: 12px;
+  }
+  
+  .search-container button {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    background: #f9d0d2;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: 1px solid rgb(223, 152, 152);
+    border-left: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #f9bfc3;
+  }
+  
+  .search-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.app-title{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 3.2em;
+    color: #293251;
+}
+
+.weather-container{
+    width: 800px;
+    height: 560px;
+    background-color: #FBEAEB;
+}
+
+.weather-icon{
+    width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  
+}
+
+h1{
+    width: 800px;
+    height: 150px;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 8em;
+    text-align: center;
+    cursor: pointer;
+}
+
+h3{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 2em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+
